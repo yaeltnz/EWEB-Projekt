@@ -1,8 +1,83 @@
-body {
-  background-color: lightblue;
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  flex-shrink: 0;
 }
 
-h1 {
-  color: navy;
-  margin-left: 20px;
+
+.rows {
+  box-sizing: border-box;
+  width: 1px;
+  height: min-content;
+  /* 2753px */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 495px 100px 264px 100px;
+  background: radial-gradient(94% 58.3% at 50.3% 82.6%, #2a2541 0%, var(--BG, rgb(17, 16, 19))
+    /* {"name":"BG"} */
+    100%);
+  overflow: hidden;
+  flex: 1 0 0px;
+  position: relative;
+  align-content: center;
+  flex-wrap: nowrap;
+  gap: 197;
+}
+
+.ausbildung {
+  box-sizing: border-box;
+  
+  width: 1px;
+  height: min-content;
+  /* 882px */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 200px 100px 200px 100px;
+  overflow: hidden;
+  flex: 1 0 0px;
+  position: relative;
+  align-content: center;
+  flex-wrap: nowrap;
+  gap: 100;
+}
+
+.berufliche-erfahrungen {
+  box-sizing: border-box;
+  width: 1px;
+  height: min-content;
+  /* 1312px */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 120px 100px 0px 100px;
+  background: radial-gradient(75% 50% at 50% 44.9%, #352541 0%, var(--BG, rgb(17, 16, 19))
+    /* {"name":"BG"} */
+    100%);
+  overflow: hidden;
+  flex: 1 0 0px;
+  position: relative;
+  align-content: center;
+  flex-wrap: nowrap;
+  gap: 100;
+}
+
+.kentnisse {
+  width: 1px;
+  height: min-content;
+  /* 1458px */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  overflow: visible;
+  flex: 1 0 0px;
+  position: relative;
+  padding: 0px 0px 0px 0px;
+  align-content: center;
+  flex-wrap: nowrap;
+  gap: 100;
 }
