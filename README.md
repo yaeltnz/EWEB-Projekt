@@ -5,9 +5,9 @@ Dieses Projekt heisst EWEB-Projekt von Yael Tönz und wurde für das Modul EWEB 
 ## About
 Die Semesterarbeit wird im Rahmen des Bachelor of Sience Teilzeitstudiengang erstellt.
 
-Von Yael Tönz mailto: yael.toenz@students.bfh.ch
-Eingereicht bei Dominic Schweizer mailto: dominc.schweizer@bfh.ch
-Eingereicht am xx. Dezember 2022
+- Von Yael Tönz mailto: yael.toenz@students.bfh.ch
+- Eingereicht bei Dominic Schweizer mailto: dominc.schweizer@bfh.ch
+- Eingereicht am 21. Dezember 2022
 
 ## Ideen
 -	Bei den Kenntnissen eine Animierung einbauen, damit beim neu Laden der Seite der Balken nach vorne fährt. 
